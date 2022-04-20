@@ -1,6 +1,7 @@
+# Inblue
 
 Inblue es una aplicación movil que permite visualizar el aforo de un establacimiento (colegio, restaurante... etc)
-Tiene dos modos, uno para usuario y el otro para administrador, esta permite conectarse a un módulo bluethoot (HC-05, HC-06) por
+tiene dos modos, uno para usuario y el otro para administrador, esta permite conectarse a un módulo bluethoot (HC-05, HC-06) por
 el cual dependiendo el modo escogido tendrá diferentes opciones, en el modo usuario, este podrá conectarse y al momento de pasar
 su tarjeta RFID por un circuito ubicado en la entrada del lugar, en la app se podrán ver los datos personales de la persona,
 adicionalmente el sistema cuenta con un sensor de temperatura donde en la aplicación se mostrará su temperatura actual y si su temperatura
