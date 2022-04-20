@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.bluethoot">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="InBlue"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bluethoot">
+        <activity android:name=".Excel">
+        </activity>
+        <activity android:name=".Conecttion" />
+        <activity android:name=".Activity_maestro" />
+        <activity android:name=".Login2" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".Login" />
+        <activity android:name=".Activity_Delete" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Activity_Register" />
+    </application>
+
+</manifest>

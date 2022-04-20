@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014181580767",
+    "project_id": "inblue-833df",
+    "storage_bucket": "inblue-833df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014181580767:android:b950d9e7cab9eed011be6a",
+        "android_client_info": {
+          "package_name": "com.app.bluethoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014181580767-gps8uihrffscbm24riju8v3o9f2rvnih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9w-I0cwq3fGjwugHCl2JcvpWD60Plz4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014181580767-gps8uihrffscbm24riju8v3o9f2rvnih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

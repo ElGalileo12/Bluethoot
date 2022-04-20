@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_50"
+    tools:context=".Activity_Delete">
+
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="411dp"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/ic_wave__1_"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.2"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addresEditText3"
+        android:layout_width="225dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="363dp"
+        android:background=" #F4F4F4"
+        android:hint="   Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintVertical_bias="0.0"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toBottomOf="@+id/pacitextView"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="33dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableLeft="@mipmap/lupa"
+        android:drawablePadding="0dp"
+        android:text="Buscar"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/exit_button"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_toStartOf="@+id/pacitextView"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow" />
+
+    <TextView
+        android:id="@+id/pacitextView"
+        android:layout_width="296dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="41dp"
+        android:gravity="center"
+        android:scrollbars="horizontal"
+        android:text="Delete-And-Edit"
+        android:textColor="@color/black"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addresEditText"
+        android:layout_width="188dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="194dp"
+        android:background="@drawable/forma"
+        android:hint="N° Identificacion"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pacitextView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="352dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/consola22"
+                android:layout_width="131dp"
+                android:layout_height="31dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="189dp"
+                android:layout_toEndOf="@+id/Nombre1"
+                android:background="#F4F4F4"
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="117dp"
+                android:layout_height="171dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="254dp"
+                android:layout_marginBottom="50dp"
+                card_view:srcCompat="@mipmap/avatar1" />
+
+            <TextView
+                android:id="@+id/Nombre1"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="192dp"
+                android:text="Nombre"
+                android:textColor="#8A8989"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Cedula1"
+                android:layout_width="54dp"
+                android:layout_height="26dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="97dp"
+                android:layout_marginTop="74dp"
+                android:layout_marginBottom="150dp"
+                android:text="Cedula"
+                android:textColor="#8A8989"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Celular1"
+                android:layout_width="55dp"
+                android:layout_height="27dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="98dp"
+                android:layout_marginTop="118dp"
+                android:layout_marginBottom="105dp"
+                android:text="Celular"
+                android:textColor="#8A8989"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Curso"
+                android:layout_width="55dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="162dp"
+                android:layout_marginBottom="64dp"
+                android:text="Curso"
+                android:textColor="#8A8989"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/consola55"
+                android:layout_width="151dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="156dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="64dp"
+                android:layout_toEndOf="@+id/Celular1"
+                android:background="#F4F4F4"
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/consola44"
+                android:layout_width="152dp"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="105dp"
+                android:layout_toEndOf="@+id/Celular1"
+                android:background="#F4F4F4"
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/cedula33"
+                android:layout_width="133dp"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="71dp"
+                android:layout_marginEnd="59dp"
+                android:layout_marginBottom="146dp"
+                android:layout_toEndOf="@+id/Cedula1"
+                android:background="#F4F4F4"
+                android:textColor="#101010"
+                android:textSize="14sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/EditNombre"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="312dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="195dp"
+                card_view:srcCompat="@mipmap/editar" />
+
+            <ImageView
+                android:id="@+id/editCedula"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="312dp"
+                android:layout_marginTop="76dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="155dp"
+                card_view:srcCompat="@mipmap/editar" />
+
+            <ImageView
+                android:id="@+id/editCelular"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="312dp"
+                android:layout_marginTop="119dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="112dp"
+                card_view:srcCompat="@mipmap/editar" />
+
+            <ImageView
+                android:id="@+id/editCurso"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="312dp"
+                android:layout_marginTop="163dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="68dp"
+                card_view:srcCompat="@mipmap/editar" />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="102dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="247dp"
+                android:layout_marginBottom="13dp"
+                android:text="Eliminar"
+                android:textSize="9sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="358dp"
+        android:text="Up"
+        android:textAlignment="center"
+        android:textColor="#F6F3F3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@+id/addresEditText3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+</RelativeLayout>
